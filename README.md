@@ -1,29 +1,20 @@
-# API Tester
+# api-tester
 
-A lightweight in-browser API client — send HTTP requests and inspect responses without leaving your browser.
+Lightweight in-browser HTTP client. Send requests, inspect responses. No install required beyond `npm run dev`.
+
+Built it because Postman felt heavy for quick checks and browser devtools don't let you set headers easily.
 
 ## Features
 
-- GET, POST, PUT, PATCH, DELETE support
-- Custom headers editor
-- JSON body editor with syntax highlighting
-- Response viewer — status code, headers, body, timing
-- Request history (session-based)
-- URL builder with query param support
+- GET, POST, PUT, PATCH, DELETE
+- Custom headers (key/value pairs)
+- JSON request body with syntax highlighting
+- Response body, status code, headers, and timing
+- Request history (last 50 requests, localStorage)
+- Import/export as JSON
 
-## Stack
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
-
-## Run locally
+## Run
 
 ```bash
-npm install
-npm run dev
+npm install && npm run dev
 ```
-
----
-
-Made by [9bzero](https://github.com/9bzero)
